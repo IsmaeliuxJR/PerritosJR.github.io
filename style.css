@@ -1,0 +1,98 @@
+html, body {
+height: 98.9%;
+margin: 0;
+padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+header {
+  background: #bdc3c7;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #282b2e, #727272);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #242525, #8f8f8f);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 375px;
+}
+
+h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8b8b8b;
+  margin: 0;
+  padding: 0;
+  font-size: 75px;
+}
+
+
+p {
+  color: #8b8b8b;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.retroceder {
+  background-color: transparent;
+  padding: 0;
+  border-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  color: #8b8b8b;
+}
+
+li a {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #8b8b8b;
+  font-size: 38px;
+  align-content: center;
+  padding: 0px;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.linea {
+list-style: none;
+padding: 0;
+}
+
+.linea li {
+display: inline;
+margin-right: 10px;
+}
+
+.linea li:last-child {
+margin-right: 0;
+}
+
+.footer {
+  height: 50px;
+  background-color: #f1f1f1;
+  text-align: center;
+  line-height: 50px;
+  }
+
+  .contenido {
+    min-height: 100%;
+    margin-bottom: -50px;
+  }
+
